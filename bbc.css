@@ -1,0 +1,410 @@
+.navbar{
+    height: 8vh;
+}
+.nav-item{
+    border-left: 1px solid grey;
+    height: 8vh;
+}
+.user{
+    color: black; 
+    background-color: white; 
+    border-radius: 50%;
+     padding: 4px 6px;
+}
+.Home{
+    padding-right:10px ; 
+    padding-left: 10px;
+}
+.News{
+    padding-right:10px ; 
+    padding-left: 10px;
+}
+.Sport{
+    padding-right:10px ; 
+    padding-left: 10px;
+}
+.Reel{
+    padding-right:10px ; 
+    padding-left: 10px;
+}
+.Worklife{
+    padding-right:10px ; 
+    padding-left: 10px;
+}
+.Travel{
+    padding-right:10px ; 
+    padding-left: 10px;
+}
+.Future{
+    padding-right:10px ; 
+    padding-left: 10px;
+}
+.Culture{
+    padding-right:10px ;
+    padding-left: 10px;
+}
+.More{
+    height: 8vh; 
+    padding-right:40px ; 
+    padding-left: 20px;
+}
+.search{
+    border-left: 1px solid grey; 
+    height: 8vh; 
+    padding-left: 10px;
+}
+.search-icon{
+    color: white; 
+    font-size: 20px;
+}
+
+.nav-item:nth-child(3):hover{
+    border-bottom: 5px solid red;
+}
+.nav-item:nth-child(1):hover{
+    border-bottom: 5px solid lightblue;
+}
+.nav-item:nth-child(4):hover{
+    border-bottom: 5px solid yellow;
+}
+.nav-item:nth-child(5):hover{
+    border-bottom: 5px solid blue;
+}
+.nav-item:nth-child(6):hover{
+    border-bottom: 5px solid rgb(99,182,231);
+}
+.nav-item:nth-child(7):hover{
+    border-bottom: 5px solid lawngreen;
+}
+.nav-item:nth-child(8):hover{
+    border-bottom: 5px solid darkblue;
+}
+.nav-item:nth-child(9):hover{
+    border-bottom: 5px solid purple;
+}
+.nav-item:nth-child(10):hover{
+    border-bottom: 5px solid white;
+    width: fit-content;
+}
+.fireman{
+    background-image: url(./images/fireman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+}
+.fireman-span{
+    color: red;
+}
+
+.woman{
+    background-image: url(./images/woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+.woman-text{
+    margin-left: 12px;
+}
+.woman-span{
+    color: red;
+    margin-left: 12px;
+}
+
+.nations{
+    background-image: url(./images/six\ nations.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+.nations-text{
+    margin-left: 12px;
+}
+.nations-span{
+    color: yellow; 
+    margin-left: 12px;
+}
+
+.tazania{
+    background-image: url(./images/tazania.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3px;
+}
+.tazania-text{
+    margin-left: 12px;
+}
+.tazania-span{
+    color: red; 
+    margin-left: 12px;
+}
+
+.cowboy{
+    background-image: url(./images/cowboy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3px;
+}
+.cowboy-text{
+    margin-left: 12px;
+}
+.cowboy-span{
+    color: red; 
+    margin-left: 12px;
+}
+
+.news{
+    color: black;
+}
+.news-span{
+    color: red
+}
+
+.minister{
+    font-size: smaller; 
+    color: grey;
+}
+.minister-span{
+    color: red;
+}
+
+.pence{
+    font-size: smaller; 
+    color: grey;
+}
+.pence-span{
+    color: red;
+}
+
+.joe-rogan{
+    font-size: smaller; 
+    color: grey;
+}
+.joe-span{
+    color: red;
+}
+
+.sports{
+    color: black;
+}
+.sports-span{
+    color: yellow;
+}
+
+.FA-Cup{
+    font-size: smaller; 
+    color: grey;
+}
+.FA-span{
+    color: yellow;
+}
+
+.winter-olympics{
+    font-size: smaller; 
+    color: grey;
+}
+.winter-span{
+    color: yellow;
+}
+
+.magic{
+    font-size: smaller; 
+    color: grey;
+}
+.magic-span{
+    color: yellow;
+}
+
+.weekend{
+    color: black;
+}
+.weekend-span{
+    color: blue;
+}
+.date-paragraph{
+    font-size: smaller; 
+    color: grey;
+}
+.date-span{
+    color: green;
+}
+.space-paragraph{
+    font-size: smaller; 
+    color: grey;
+}
+.space-span{
+    color: purple;
+}
+.basket-paragraph{
+    font-size: smaller; 
+    color: grey;
+}
+.basket-span{
+    color:blue;
+}
+
+.Weather{
+    background-color: white;
+}
+
+.visit-reel{
+    border: 2px solid white;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+.visit-tag{
+    color: white; 
+    text-decoration: none;
+}
+.visit-tag:hover{
+    color: white; 
+}
+.visit-icon{
+    font-size:large;
+    color: white;
+}
+
+.african-heading{
+    color: black;
+}
+.african-span{
+    color: red;
+}
+.african{
+    font-size: smaller; 
+    color: grey;
+}
+.slash{
+    color: red;
+}
+
+.editors-pick{
+    color: black;
+}
+.editors-span{
+    color: blue;
+}
+.experiment{
+    font-size: smaller; 
+    color: white;
+}
+.experiment-span{
+    color: green;
+}
+
+.style{
+    background-color: white;
+}
+
+.one{
+    background-image: url(./images/nice\ sites.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two{
+    background-color: white;
+}
+.three{
+    background-image: url(./images/green\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.four{
+    background-image: url(./images/green\ background.jpg);
+    border: 5px solid green;
+}
+.five{
+    background-image: url(./images/light.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.female{
+    background-image: url(./images/female\ ceo.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cow{
+    background-image: url(./images/cows.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bbc-world-service{
+    font-weight:700; 
+    background-color:red;
+    color:white;
+    padding: 4px 12px;
+}
+.on-air{
+    background-color: black; 
+    padding: 4px 12px; 
+    padding-right: 742px; 
+    color: white;
+}
+
+
+.more-around{
+    color: black
+}
+.more-span{
+    color: blue
+}
+.table-head{
+    background-color: red; 
+    padding-left: 10px; 
+    padding-right: 50px;
+    padding-top: 9px; 
+    padding-bottom: 5px;
+}
+.table-data{
+    font-size: larger; 
+    color: white; 
+    background-color: grey; 
+    padding-right: 20px; 
+    border-top:1px solid black; 
+    border-bottom: 1px solid black;
+}
+.table-span{
+    padding-left: 10px; 
+    background-color: red; 
+    color: white; 
+    border-radius: 50%; 
+    padding-right: 10px;
+    padding-top: 4px; 
+    padding-bottom: 4px;
+}
+.table-bottom{
+    font-family: cursive; 
+    font-size: smaller;
+}
+
+.ice-diving{
+    color: black;
+}
+.ice-span{
+    color: blue;
+}
+
+.more-languages{
+    color: black;
+}
+
+.footer-items{
+    color: white;
+}
+.footer-items:hover{
+    color: white;
+}
+.footer-borders{
+    border-right: 1px solid grey;
+    height: 90px;
+}
+.longer-border{
+    border-bottom: 1px solid grey;
+     margin-top: 20px;
+}
+@media(max-width:768px){
+    
+}
+@media(max-width:576px){
+  
+}

@@ -5,6 +5,11 @@
     border-left: 1px solid grey;
     height: 8vh;
 }
+.navbar-box{
+    background-color: white;
+    padding: 2px 9px; 
+    font-weight: 700;
+}
 .user{
     color: black; 
     background-color: white; 
@@ -245,6 +250,10 @@
 .Weather{
     background-color: white;
 }
+.weather-item{
+    font-weight: 400; 
+    font-size: smaller;
+}
 
 .visit-reel{
     border: 2px solid white;
@@ -295,6 +304,52 @@
     background-color: white;
 }
 
+.covid{
+    font-size: smaller; 
+    color: grey
+}
+.covid-span{
+    color: darkmagenta;
+}
+.movie{
+    font-size: smaller; 
+    color: grey;
+}
+.movie-span{
+    color: blue;
+}
+.brain-quirk{
+    font-size: smaller; 
+    color: grey;
+}
+.brain-span{
+    color: cyan;
+}
+.morning-light{
+    font-size: smaller; 
+    color: grey;
+}
+.morning-span{
+    color: cyan;
+}
+.neil{
+    font-size: smaller; 
+    color: grey;
+}
+.neil-span{
+    color: cyan;
+}
+.food-div{
+    background-color: white;
+}
+.food{
+    font-size: smaller; 
+    color: grey;
+}
+.food-span{
+    color: cyan;
+}
+
 .one{
     background-image: url(./images/nice\ sites.jpg);
     background-repeat: no-repeat;
@@ -337,10 +392,52 @@
 .on-air{
     background-color: black; 
     padding: 4px 12px; 
-    padding-right: 742px; 
+    padding-right: 740px; 
     color: white;
 }
 
+.business{
+    font-size: smaller; 
+    color: grey;
+}
+.business-span{
+    color: red;
+}
+
+.future-border{
+    border: 2px solid white; 
+    padding: 8px 20px; 
+    border-radius: 30px
+}
+.future-link{
+    color: white; 
+    text-decoration: none;
+}
+.future-link:hover{
+    color: white; 
+}
+.future-icon{
+    font-size:large;
+    color: white;
+}
+
+.lewis-span{
+    background-color: black;
+}
+
+.featured-video{
+    color: black;
+}
+.featured-span{
+    color: blue;
+}
+.jump-span{
+    font-size: smaller; 
+    color: white;
+}
+.jump{
+    color: cyan;
+}
 
 .more-around{
     color: black
@@ -406,5 +503,90 @@
     
 }
 @media(max-width:576px){
-  
+    .fireman-original{
+        padding-bottom: 10px;
+    }
+    .fireman-heading{
+       padding-right: 50px;
+       font-size: larger;
+   }
+   .woman-original{
+    padding-bottom: 10px;
+   }
+   .nations-original{
+    padding-bottom: 10px;
+   }
+   .tazania-original{
+    padding-bottom: 10px;
+   }
+   .cowboy-original{
+    padding-bottom: 10px;
+   }
+   .former-minister{
+    padding-bottom: 20px;
+   }
+   .trial{
+    padding-bottom: 20px;
+   }
+   .joe-original{
+    padding-bottom: 20px;
+   }
+   .win{
+    padding-bottom: 20px;
+    padding-top: 10px;
+   }
+   .winter-original{
+    padding-bottom: 20px;
+   }
+   .date-original{
+    padding-bottom: 20px;
+    padding-top: 10px;
+   }
+   .space-original{
+    padding-bottom: 20px;
+   }
+   .visit-original{
+       padding-bottom: 12px;
+       padding-top: 12px;
+   }
+   .aftermath{
+       padding-bottom: 12px;
+   }
+   .lovelife{
+       padding-bottom: 12px;
+   }
+   .madagascar{
+       padding-bottom: 12px;
+   }
+   .ariel{
+       padding-bottom: 12px;
+   }
+   .south-africa{
+       padding-bottom: 12px;
+   }
+   .covid-original{
+       padding-bottom: 12px;
+   }
+   .movie-original{
+       padding-bottom: 12px;
+   }
+   .future-holder{
+       padding-top: 12px;
+       padding-bottom: 12px;
+   }
+   .tiny-island{
+       padding-bottom: 12px;
+   }
+   .desert{
+       padding-bottom: 12px;
+   }
+   .submarine{
+       padding-bottom: 12px;
+   }
+   .on-air{
+       
+   }
+   .more-original{
+       margin-right: 4000px;
+   }
 }

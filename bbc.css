@@ -1,95 +1,79 @@
 .navbar{
-    height: 8vh;
+    height: 100%;
 }
-.nav-item{
-    border-left: 1px solid grey;
-    height: 8vh;
-}
-.navbar-box{
-    background-color: white;
-    padding: 2px 9px; 
+.navbar-brand{
+    color: black !important;
     font-weight: 700;
 }
-.user{
-    color: black; 
-    background-color: white; 
+.b{
+    background-color: white;
+    padding: 2px 9px;
+}
+.b-2{
+    background-color: white;
+    padding: 2px 9px;
+}
+.c{
+    background-color: white;
+    padding: 2px 9px;
+}
+.nav-link{
+    color: white  !important;
+}
+.home{
+    padding-top: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.news{
+    padding-top: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.sport-bar{
+    padding-top: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.reel{
+    padding-top: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.worklife{
+    padding-top: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.travel{
+    padding-top: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.future{
+    padding-top: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.culture{
+    padding-top: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.more-dropdown{
+    padding-top: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.fa-search{
+    color: white;
+    font-size: larger;
+}
+.h{
+    color: black;
+    background-color: white;
     border-radius: 50%;
-     padding: 4px 6px;
-}
-.Home{
-    padding-right:10px ; 
-    padding-left: 10px;
-}
-.News{
-    padding-right:10px ; 
-    padding-left: 10px;
-}
-.Sport{
-    padding-right:10px ; 
-    padding-left: 10px;
-}
-.Reel{
-    padding-right:10px ; 
-    padding-left: 10px;
-}
-.Worklife{
-    padding-right:10px ; 
-    padding-left: 10px;
-}
-.Travel{
-    padding-right:10px ; 
-    padding-left: 10px;
-}
-.Future{
-    padding-right:10px ; 
-    padding-left: 10px;
-}
-.Culture{
-    padding-right:10px ;
-    padding-left: 10px;
-}
-.More{
-    height: 8vh; 
-    padding-right:40px ; 
-    padding-left: 20px;
-}
-.search{
-    border-left: 1px solid grey; 
-    height: 8vh; 
-    padding-left: 10px;
-}
-.search-icon{
-    color: white; 
-    font-size: 20px;
-}
-
-.nav-item:nth-child(3):hover{
-    border-bottom: 5px solid red;
-}
-.nav-item:nth-child(1):hover{
-    border-bottom: 5px solid lightblue;
-}
-.nav-item:nth-child(4):hover{
-    border-bottom: 5px solid yellow;
-}
-.nav-item:nth-child(5):hover{
-    border-bottom: 5px solid blue;
-}
-.nav-item:nth-child(6):hover{
-    border-bottom: 5px solid rgb(99,182,231);
-}
-.nav-item:nth-child(7):hover{
-    border-bottom: 5px solid lawngreen;
-}
-.nav-item:nth-child(8):hover{
-    border-bottom: 5px solid darkblue;
-}
-.nav-item:nth-child(9):hover{
-    border-bottom: 5px solid purple;
-}
-.nav-item:nth-child(10):hover{
-    border-bottom: 5px solid white;
-    width: fit-content;
+    padding: 7px 10px;
 }
 .fireman{
     background-image: url(./images/fireman.jpg);
@@ -484,6 +468,18 @@
 .more-languages{
     color: black;
 }
+.arabic-text{
+    direction: rtl;
+}
+.languages1{
+    padding-left: 110px;
+}
+.languages2{
+    padding-left: 150px;
+}
+.languages3{
+    padding-left: 130px;
+}
 
 .footer-items{
     color: white;
@@ -503,11 +499,18 @@
     
 }
 @media(max-width:576px){
+    .nav-link{
+        color: white !important;
+        z-index: 9999;
+    }
     .fireman-original{
         padding-bottom: 10px;
     }
+    .fireman{
+        padding-left: 0;
+    }
     .fireman-heading{
-       padding-right: 50px;
+       padding-left: 0px;
        font-size: larger;
    }
    .woman-original{
@@ -583,10 +586,33 @@
    .submarine{
        padding-bottom: 12px;
    }
-   .on-air{
-       
-   }
    .more-original{
-       margin-right: 4000px;
+       margin-right: auto;
    }
+   .footer-borders{
+       border-bottom: 1px solid white;
+       height: 8px ;
+    }
+    .footer-items{
+        padding-top: 20px !important;
+    }
+    .languages1{
+        padding-left: 12px;
+    }
+    .languages2{
+        padding-left: 12px;
+    }
+    .languages3{
+        padding-left: 12px;
+    }
+    .on-air{
+        padding-right: 0px;
+    }
+    .bbc-world-service{
+        padding-right: 2px;
+        padding-left: 1px;
+    }
+    .table{
+        margin-left: 0px !important;
+    }
 }
